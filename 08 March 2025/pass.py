@@ -5,11 +5,3 @@ for x in range (1,10):
     else:
         print(x)
 
-
-#continue help to continue to next line of code
-
-for x in range(1,10):
-    if x%2==0:
-        print("even number")
-        continue
-        print(x)
