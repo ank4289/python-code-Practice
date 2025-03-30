@@ -9,7 +9,7 @@ def test_sample2():
 
 def test_getrequest():
     URL="https://restful-booker.herokuapp.com/booking/"
-    ID="2318"
+    ID="38pyjava"
     full_url=URL+ID
     responce =requests.get(full_url)
     assert responce.status_code == 200,"Status code is not 200 not successfull"
